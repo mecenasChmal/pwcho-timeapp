@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <title>Cz.apka</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/main.js"></script>
+    </head>
+
+    <body>
+        <h1>Miasto</h1>
+        <div class="select-style">
+            <select class="city-list" name="city-list" onchange="getDateTime(event)">
+                <option hidden value="">Wybierz miasto</option>
+                <option value="Lublin">Lublin</option>
+                <option value="Nowy York">Nowy York</option>
+                <option value="Sydney">Sydney</option>
+            </select>
+        </div><br>
+        <div class="result"></div>
+    </body>
+</html>
