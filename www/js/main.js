@@ -15,8 +15,8 @@ function getDateTime(event){
         default: break;
     }
     date.setHours(date.getHours()+ timezone);
-    var day = date.getDay()+1;
-    if(day<10) day="0"+(date.getDay()+1);
+    var day = date.getDate();
+    if(day<10) day="0"+date.getDate();
     var month = date.getMonth()+1;
     if(month<10) month="0"+(date.getMonth()+1);
     var year = date.getFullYear();
